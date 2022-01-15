@@ -36,10 +36,10 @@
   .popular {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-    width: 100%;
   }
   .related-section {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .related-text {
