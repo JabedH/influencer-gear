@@ -57,6 +57,13 @@ i {
   border-radius: 50%;
   margin-left: 40px;
 }
+.camera-bg img {
+  transition: transform 1s;
+}
+.camera-bg img:hover {
+  transform: scale(120%);
+}
+
 /* ----logo collection---- */
 .all-logos {
   display: flex;
@@ -165,46 +172,3 @@ footer h3 {
   font-size: 24px;
   font-weight: 700;
 }
-/* ----------------- */
-/* ----media query--- */
-/* ----mobile device-- */
-@media only screen and (max-width: 688px) {
-  .header-button {
-    display: none;
-  }
-  .header-section p {
-    margin-left: 37.5%;
-    font-weight: 700;
-  }
-  .camera-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .camera-section h1 {
-    font-size: 28px;
-    font-weight: 900;
-    margin-top: 20px;
-  }
-  .Journey {
-    order: 1;
-  }
-  .all-logos img {
-    width: 60px;
-  }
-  .popular {
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    width: 100%;
-  }
-  .related-section {
-    flex-direction: column;
-    align-items: center;
-  }
-  .related-text {
-    margin-top: 20px;
-  }
-}
-@media only screen and (min-width: 688px) (max-width: 992px) {
-} ;

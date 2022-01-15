@@ -1,3 +1,55 @@
-/* ----for mobile---- */
-@media screen (max-width: 688px) {
+/* ----media query--- */
+/* ----mobile device-- */
+@media only screen and (max-width: 688px) {
+  .header-button {
+    display: none;
+  }
+  .header-section p {
+    margin-left: 37.5%;
+    font-weight: 700;
+  }
+  .camera-section {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .camera-section h1 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .Journey {
+    order: 1;
+  }
+  .all-logos {
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  .all-logos img {
+    width: 60px;
+  }
+  .popular {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    width: 100%;
+  }
+  .related-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .related-text {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .popular {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
 }
