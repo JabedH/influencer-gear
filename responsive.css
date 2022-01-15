@@ -47,10 +47,9 @@
   }
   .related-section {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    gap: 10px;
+    width: auto;
+    gap: 20px;
   }
   .related-text {
     margin-top: 20px;
