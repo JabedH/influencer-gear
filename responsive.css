@@ -53,6 +53,9 @@
   .related-text {
     margin-top: 20px;
   }
+  .related-products img {
+    width: 80px;
+  }
 }
 @media only screen and (min-width: 689px) and (max-width: 992px) {
   .popular {
