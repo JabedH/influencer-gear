@@ -48,7 +48,6 @@
   .related-section {
     flex-direction: column;
     align-items: center;
-    width: auto;
     gap: 20px;
   }
   .related-text {
