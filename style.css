@@ -1,0 +1,152 @@
+/* ---common order---- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 5%;
+}
+/* --- header section---- */
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-button a,
+i {
+  margin-right: 25px;
+}
+.header-button a {
+  text-decoration: none;
+}
+/* ----camera-section */
+.camera-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Journey {
+  width: 50%;
+}
+.Journey h1 {
+  font-size: 40px;
+  width: 700;
+}
+.Journey a {
+  width: 160px;
+  height: 30px;
+  padding: 10px 0 10px 15px;
+  background-color: #e02c6d;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
+.Journey h1 {
+  margin-bottom: 10px;
+}
+.fa-arrow-right {
+  margin-left: 10px;
+}
+.Prebook {
+  margin-top: 30px;
+}
+.camera-bg {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+/* ----logo collection---- */
+.all-logos {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+/* ----paragraph ---- */
+.popular {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 360px 360px 360px;
+  row-gap: 40px;
+  margin: 5%;
+}
+.popular-text {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.popular-collection {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 329px;
+  height: 476px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px 5px #ccc;
+}
+.tripod h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.tripod h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.tripod p {
+  color: #5e6366;
+}
+.star {
+  display: flex;
+  align-items: center;
+}
+.star p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5e6366;
+}
+.fas {
+  color: orange;
+  width: 2px;
+}
+/* ----related-products---- */
+.related-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 5%;
+}
+.related-text {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.related-details {
+  width: 450px;
+  height: auto;
+  box-shadow: 4px 4px 20px 5px #ccc;
+  border-radius: 10px;
+}
+.related-products {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.related-products img {
+  width: 180px;
+}
+.mobile {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+/* ----footer---- */
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #0a0826;
+  color: #fff;
+}
+.footer-icon {
+  text-align: center;
+}
