@@ -56,6 +56,9 @@
   .related-products img {
     width: 80px;
   }
+  .all-star i {
+    width: 1px;
+  }
 }
 @media only screen and (min-width: 689px) and (max-width: 992px) {
   .popular {
