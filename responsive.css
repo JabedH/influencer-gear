@@ -54,10 +54,10 @@
     margin-top: 20px;
   }
   .related-products img {
-    width: 80px;
+    width: 70px;
   }
-  .all-star i {
-    width: 1px;
+  .fas{
+      width: 1px;
   }
 }
 @media only screen and (min-width: 689px) and (max-width: 992px) {
