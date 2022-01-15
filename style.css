@@ -131,7 +131,7 @@ i {
   font-weight: 600;
 }
 .related-details {
-  width: 450px;
+  width: auto;
   height: auto;
   box-shadow: 4px 4px 20px 5px #ccc;
   border-radius: 10px;
