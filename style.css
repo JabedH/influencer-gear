@@ -23,7 +23,6 @@ i {
 /* ----camera-section */
 .camera-section {
   display: flex;
-  flex-wrap: wrap;
 }
 .Journey {
   width: 50%;
@@ -145,7 +144,7 @@ i {
 }
 .see-more {
   text-align: right;
-  margin-right: 10%;
+  margin-right: 8%;
 }
 .see-more a {
   text-decoration: none;
@@ -170,8 +169,12 @@ footer h3 {
 /* ----media query--- */
 /* ----mobile device-- */
 @media only screen and (max-width: 688px) {
-  .header-section {
+  .header-button {
     display: none;
+  }
+  .header-section p {
+    margin-left: 37.5%;
+    font-weight: 700;
   }
   .camera-section {
     display: flex;
@@ -191,10 +194,17 @@ footer h3 {
     width: 60px;
   }
   .popular {
-    grid-template-columns: 600px;
+    grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    width: 100%;
   }
-  .tripod {
+  .related-section {
     flex-direction: column;
+    align-items: center;
+  }
+  .related-text {
+    margin-top: 20px;
   }
 }
+@media only screen and (min-width: 688px) (max-width: 992px) {
+} ;
